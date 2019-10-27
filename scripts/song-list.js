@@ -2,6 +2,7 @@
    album.songs.forEach( (song, index) => {
      song.element = $(`
        <tr>
+       <td>${index + 1}</td>
         <td>
           <button>
             <span class="song-number">${index + 1}</span>
