@@ -14,7 +14,6 @@
     player.playPause(nextSong);
   });
 
-
   $('button#previous').on('click', function() {
    if (player.playState !== 'playing') { return; }
   const currentSongIndex = album.songs.indexOf(player.currentlyPlaying);
